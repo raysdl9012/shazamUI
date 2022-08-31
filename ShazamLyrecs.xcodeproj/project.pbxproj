@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78255AB328BEF496005AAF75 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 78255AB228BEF496005AAF75 /* README.md */; };
+		78485D9028B6E1C000B3EB0F /* ShazamLyrecsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78485D8F28B6E1C000B3EB0F /* ShazamLyrecsApp.swift */; };
+		78485D9428B6E1C100B3EB0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78485D9328B6E1C100B3EB0F /* Assets.xcassets */; };
+		78485D9728B6E1C100B3EB0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78485D9628B6E1C100B3EB0F /* Preview Assets.xcassets */; };
+		78485DA328B6E29100B3EB0F /* ShazamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78485DA228B6E29100B3EB0F /* ShazamModel.swift */; };
+		78485DA828B6E2BD00B3EB0F /* Shazam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78485DA728B6E2BD00B3EB0F /* Shazam.swift */; };
+		78485DAA28B6E53B00B3EB0F /* ShazamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78485DA928B6E53B00B3EB0F /* ShazamController.swift */; };
+		78485DAC28B6F29A00B3EB0F /* LyricsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78485DAB28B6F29A00B3EB0F /* LyricsModel.swift */; };
+		78485DAE28B6F2F100B3EB0F /* Lyrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78485DAD28B6F2F100B3EB0F /* Lyrics.swift */; };
+		78485DB028B6F30800B3EB0F /* LyricsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78485DAF28B6F30800B3EB0F /* LyricsController.swift */; };
+		78485DB928B6F43500B3EB0F /* ExecuteRequestServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78485DB828B6F43500B3EB0F /* ExecuteRequestServices.swift */; };
+		78485DBB28B6F44700B3EB0F /* Logs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78485DBA28B6F44700B3EB0F /* Logs.swift */; };
+		78485DC328B6F4B600B3EB0F /* MRequestServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78485DC128B6F4B600B3EB0F /* MRequestServices.swift */; };
+		78485DC428B6F4B600B3EB0F /* MResponseServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78485DC228B6F4B600B3EB0F /* MResponseServices.swift */; };
+		78485DC728B6F4F000B3EB0F /* MethodsHttps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78485DC628B6F4F000B3EB0F /* MethodsHttps.swift */; };
+		78485DCA28B6F52C00B3EB0F /* LyricsServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78485DC928B6F52C00B3EB0F /* LyricsServices.swift */; };
+		78485DCC28B6FCC200B3EB0F /* ShazamProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78485DCB28B6FCC200B3EB0F /* ShazamProvider.swift */; };
+		78485DCE28B6FCD500B3EB0F /* AudioRecordProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78485DCD28B6FCD500B3EB0F /* AudioRecordProvider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		78255AB228BEF496005AAF75 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		78485D8C28B6E1C000B3EB0F /* ShazamLyrecs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShazamLyrecs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78485D8F28B6E1C000B3EB0F /* ShazamLyrecsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShazamLyrecsApp.swift; sourceTree = "<group>"; };
+		78485D9328B6E1C100B3EB0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78485D9628B6E1C100B3EB0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78485DA228B6E29100B3EB0F /* ShazamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShazamModel.swift; sourceTree = "<group>"; };
+		78485DA728B6E2BD00B3EB0F /* Shazam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shazam.swift; sourceTree = "<group>"; };
+		78485DA928B6E53B00B3EB0F /* ShazamController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShazamController.swift; sourceTree = "<group>"; };
+		78485DAB28B6F29A00B3EB0F /* LyricsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsModel.swift; sourceTree = "<group>"; };
+		78485DAD28B6F2F100B3EB0F /* Lyrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lyrics.swift; sourceTree = "<group>"; };
+		78485DAF28B6F30800B3EB0F /* LyricsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsController.swift; sourceTree = "<group>"; };
+		78485DB828B6F43500B3EB0F /* ExecuteRequestServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExecuteRequestServices.swift; sourceTree = "<group>"; };
+		78485DBA28B6F44700B3EB0F /* Logs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logs.swift; sourceTree = "<group>"; };
+		78485DC128B6F4B600B3EB0F /* MRequestServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRequestServices.swift; sourceTree = "<group>"; };
+		78485DC228B6F4B600B3EB0F /* MResponseServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MResponseServices.swift; sourceTree = "<group>"; };
+		78485DC628B6F4F000B3EB0F /* MethodsHttps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MethodsHttps.swift; sourceTree = "<group>"; };
+		78485DC928B6F52C00B3EB0F /* LyricsServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsServices.swift; sourceTree = "<group>"; };
+		78485DCB28B6FCC200B3EB0F /* ShazamProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShazamProvider.swift; sourceTree = "<group>"; };
+		78485DCD28B6FCD500B3EB0F /* AudioRecordProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordProvider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78485D8928B6E1C000B3EB0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78485D8328B6E1C000B3EB0F = {
+			isa = PBXGroup;
+			children = (
+				78255AB228BEF496005AAF75 /* README.md */,
+				78485D8E28B6E1C000B3EB0F /* ShazamLyrecs */,
+				78485D8D28B6E1C000B3EB0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78485D8D28B6E1C000B3EB0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78485D8C28B6E1C000B3EB0F /* ShazamLyrecs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78485D8E28B6E1C000B3EB0F /* ShazamLyrecs */ = {
+			isa = PBXGroup;
+			children = (
+				78485D9328B6E1C100B3EB0F /* Assets.xcassets */,
+				78485D9D28B6E25F00B3EB0F /* Application */,
+				78485D9528B6E1C100B3EB0F /* Preview Content */,
+			);
+			path = ShazamLyrecs;
+			sourceTree = "<group>";
+		};
+		78485D9528B6E1C100B3EB0F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				78485D9628B6E1C100B3EB0F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		78485D9D28B6E25F00B3EB0F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				78485D8F28B6E1C000B3EB0F /* ShazamLyrecsApp.swift */,
+				78485DC528B6F4DE00B3EB0F /* Enums */,
+				78485D9F28B6E27000B3EB0F /* Models */,
+				78485DA128B6E27B00B3EB0F /* Controllers */,
+				78485DA028B6E27500B3EB0F /* Providers */,
+				78485D9E28B6E26500B3EB0F /* Views */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		78485D9E28B6E26500B3EB0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				78485DA728B6E2BD00B3EB0F /* Shazam.swift */,
+				78485DAD28B6F2F100B3EB0F /* Lyrics.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		78485D9F28B6E27000B3EB0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				78485DC028B6F49C00B3EB0F /* RequestServices */,
+				78485DA228B6E29100B3EB0F /* ShazamModel.swift */,
+				78485DAB28B6F29A00B3EB0F /* LyricsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		78485DA028B6E27500B3EB0F /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				78485DD028B707C300B3EB0F /* Shazam */,
+				78485DCF28B707A300B3EB0F /* Audio */,
+				78485DB528B6F40D00B3EB0F /* Services */,
+				78485DB228B6F40100B3EB0F /* Logs */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		78485DA128B6E27B00B3EB0F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				78485DA928B6E53B00B3EB0F /* ShazamController.swift */,
+				78485DAF28B6F30800B3EB0F /* LyricsController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		78485DB228B6F40100B3EB0F /* Logs */ = {
+			isa = PBXGroup;
+			children = (
+				78485DBA28B6F44700B3EB0F /* Logs.swift */,
+			);
+			path = Logs;
+			sourceTree = "<group>";
+		};
+		78485DB528B6F40D00B3EB0F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				78485DC828B6F51B00B3EB0F /* LyricsServices */,
+				78485DB828B6F43500B3EB0F /* ExecuteRequestServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		78485DC028B6F49C00B3EB0F /* RequestServices */ = {
+			isa = PBXGroup;
+			children = (
+				78485DC128B6F4B600B3EB0F /* MRequestServices.swift */,
+				78485DC228B6F4B600B3EB0F /* MResponseServices.swift */,
+			);
+			path = RequestServices;
+			sourceTree = "<group>";
+		};
+		78485DC528B6F4DE00B3EB0F /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				78485DC628B6F4F000B3EB0F /* MethodsHttps.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		78485DC828B6F51B00B3EB0F /* LyricsServices */ = {
+			isa = PBXGroup;
+			children = (
+				78485DC928B6F52C00B3EB0F /* LyricsServices.swift */,
+			);
+			path = LyricsServices;
+			sourceTree = "<group>";
+		};
+		78485DCF28B707A300B3EB0F /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				78485DCD28B6FCD500B3EB0F /* AudioRecordProvider.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		78485DD028B707C300B3EB0F /* Shazam */ = {
+			isa = PBXGroup;
+			children = (
+				78485DCB28B6FCC200B3EB0F /* ShazamProvider.swift */,
+			);
+			path = Shazam;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78485D8B28B6E1C000B3EB0F /* ShazamLyrecs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78485D9A28B6E1C100B3EB0F /* Build configuration list for PBXNativeTarget "ShazamLyrecs" */;
+			buildPhases = (
+				78485D8828B6E1C000B3EB0F /* Sources */,
+				78485D8928B6E1C000B3EB0F /* Frameworks */,
+				78485D8A28B6E1C000B3EB0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShazamLyrecs;
+			productName = ShazamLyrecs;
+			productReference = 78485D8C28B6E1C000B3EB0F /* ShazamLyrecs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78485D8428B6E1C000B3EB0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					78485D8B28B6E1C000B3EB0F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 78485D8728B6E1C000B3EB0F /* Build configuration list for PBXProject "ShazamLyrecs" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78485D8328B6E1C000B3EB0F;
+			productRefGroup = 78485D8D28B6E1C000B3EB0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78485D8B28B6E1C000B3EB0F /* ShazamLyrecs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78485D8A28B6E1C000B3EB0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78255AB328BEF496005AAF75 /* README.md in Resources */,
+				78485D9728B6E1C100B3EB0F /* Preview Assets.xcassets in Resources */,
+				78485D9428B6E1C100B3EB0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78485D8828B6E1C000B3EB0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78485DA328B6E29100B3EB0F /* ShazamModel.swift in Sources */,
+				78485DB928B6F43500B3EB0F /* ExecuteRequestServices.swift in Sources */,
+				78485DC428B6F4B600B3EB0F /* MResponseServices.swift in Sources */,
+				78485DAC28B6F29A00B3EB0F /* LyricsModel.swift in Sources */,
+				78485DAE28B6F2F100B3EB0F /* Lyrics.swift in Sources */,
+				78485DB028B6F30800B3EB0F /* LyricsController.swift in Sources */,
+				78485DC328B6F4B600B3EB0F /* MRequestServices.swift in Sources */,
+				78485DCA28B6F52C00B3EB0F /* LyricsServices.swift in Sources */,
+				78485DBB28B6F44700B3EB0F /* Logs.swift in Sources */,
+				78485DC728B6F4F000B3EB0F /* MethodsHttps.swift in Sources */,
+				78485DCE28B6FCD500B3EB0F /* AudioRecordProvider.swift in Sources */,
+				78485D9028B6E1C000B3EB0F /* ShazamLyrecsApp.swift in Sources */,
+				78485DCC28B6FCC200B3EB0F /* ShazamProvider.swift in Sources */,
+				78485DAA28B6E53B00B3EB0F /* ShazamController.swift in Sources */,
+				78485DA828B6E2BD00B3EB0F /* Shazam.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		78485D9828B6E1C100B3EB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78485D9928B6E1C100B3EB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78485D9B28B6E1C100B3EB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShazamLyrecs/Preview Content\"";
+				DEVELOPMENT_TEAM = S6F9QFA4T9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Esta aplicacion desea utilizar el microfono para el reconocimiento de Voz";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rdsl.ShazamLyrecs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78485D9C28B6E1C100B3EB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShazamLyrecs/Preview Content\"";
+				DEVELOPMENT_TEAM = S6F9QFA4T9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Esta aplicacion desea utilizar el microfono para el reconocimiento de Voz";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rdsl.ShazamLyrecs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78485D8728B6E1C000B3EB0F /* Build configuration list for PBXProject "ShazamLyrecs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78485D9828B6E1C100B3EB0F /* Debug */,
+				78485D9928B6E1C100B3EB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78485D9A28B6E1C100B3EB0F /* Build configuration list for PBXNativeTarget "ShazamLyrecs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78485D9B28B6E1C100B3EB0F /* Debug */,
+				78485D9C28B6E1C100B3EB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78485D8428B6E1C000B3EB0F /* Project object */;
+}
